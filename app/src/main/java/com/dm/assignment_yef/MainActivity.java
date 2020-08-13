@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onclick() {
-        // to generate the number
+        // click on button to generate the number
         generate_number.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
