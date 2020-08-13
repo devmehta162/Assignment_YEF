@@ -3,4 +3,5 @@
     <string name="generate_number">Generate Number</string>
     <string name="show_number">show number</string>
     <string name="delete_numbers">delete</string>
+    <string name="todo">TODO</string>
 </resources>

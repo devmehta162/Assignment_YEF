@@ -1,26 +1,19 @@
 package com.dm.assignment_yef;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
-
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Random;
 
 import static android.R.layout.simple_list_item_1;
@@ -86,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        // to delete the list
+        // to delete the number list
         deleteNumbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
